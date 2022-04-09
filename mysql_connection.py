@@ -4,8 +4,8 @@ try:
     connection_params = {
             "host":"localhost",
             "user":"root",
-            "password":"aibar434",
-            "database":"qazeng"
+            "password":"pass123",
+            "database":"db_name"
     }
     with connect(**connection_params) as connection:
         if connection.is_connected():
