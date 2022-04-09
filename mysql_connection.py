@@ -1,7 +1,13 @@
 from mysql.connector import connect, Error
 
 try:
-    with connect(host="localhost", user="root", password="pass123", database="db_name") as connection:
+    connection_params = {
+            "host":"localhost",
+            "user":"root",
+            "password":"aibar434",
+            "database":"qazeng"
+    }
+    with connect(**connection_params) as connection:
         if connection.is_connected():
             print(connection.get_server_info())
             cursor = connection.cursor()
