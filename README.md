@@ -1,1 +1,1 @@
-# python-mysql-tutorial
+# Python MySQL Tutorial
