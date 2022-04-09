@@ -5,7 +5,8 @@ try:
             "host":"localhost",
             "user":"root",
             "password":"pass123",
-            "database":"db_name"
+            "database":"db_name",
+            "raise_on_warnings":True
     }
     with connect(**connection_params) as connection:
         if connection.is_connected():
