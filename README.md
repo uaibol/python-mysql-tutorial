@@ -1,4 +1,4 @@
-# Python MySQL Tutorial
+# Python MySQL Tutorial with Pandas Library
 
 **1. Installation**
 
