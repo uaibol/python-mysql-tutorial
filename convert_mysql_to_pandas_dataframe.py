@@ -6,8 +6,8 @@ import pandas as pd
 connection_params = {
         "host":"localhost",
         "user":"root",
-        "password":"aibar434",
-        "database":"qazeng",
+        "password":"pass123",
+        "database":"db_name",
         "raise_on_warnings":True
 }
 
