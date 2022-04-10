@@ -34,3 +34,9 @@ except Error as e:
 
 
 ```
+**3. CRUD Operations in MySQL**
+	
+	-Create Operation
+	-Read Operation
+	-Update Operation
+	-Delete Operation
