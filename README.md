@@ -53,3 +53,16 @@ Parameters:<br>
 	1. **column_name** - Name of the particular column<br>
 	2. **column_type** - DataType of the column. DataType can be: **char(), varchar(), int(), float(),** etc.<br>
 	3. **constraints** - In order to give restrictions to particular column constraints are used. Constraints can be - **not null, primary key, foreign key,** etc.<br>
+
+**Example:**<br>
+```mysql
+
+USE db_name;
+CREATE TABLE table_name(
+	id int NOT NULL AUTO_INCREMENT,
+	name varchar(50) NOT NULL,
+	age int NOT NULL,
+	PRIMARY KEY (id)
+);
+
+```
