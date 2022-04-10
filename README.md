@@ -78,12 +78,12 @@ SELECT * FROM table_name;
 
 3.3. Update Operation
 
-There is  two commands are mostly used for Update Operation.
-1. Alter Table Command - This is the DDL command (Data Definition Language) used to change the structure of the table.
-2. Update Table Command - This is the DML command (Data Manipulating Language) used to alter the records.
+There is  two statements are mostly used for Update Operation.
+1. Alter Table Statement - This is the DDL statement (Data Definition Language) used to change the structure of the table.
+2. Update Table Statement - This is the DML statement (Data Manipulating Language) used to alter the records.
 
 
-Syntax:
+Syntax: Alter table
 
 ```mysql
 ALTER TABLE table_name
@@ -93,6 +93,24 @@ ALTER TABLE table_name
 DROP COLUMN column_name;
 
 ALTER TABLE table_name
-MODIFY COLUMN column_name datatype
+MODIFY COLUMN column_name datatype;
+
+```
+
+Syntax: Update - The Update statement is used to modify the existing records in a table.
+
+```mysql
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+```
+Example:
+
+```mysql
+UPDATE table_name
+SET column1 = "Person Name", column2 = "Person address",
+WHERE id = 1;
 
 ```
