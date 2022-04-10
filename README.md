@@ -41,7 +41,7 @@ except Error as e:
 	- Update Operation
 	- Delete Operation
 
-3.1. Create Operation
+**3.1. Create Operation**
 	
 Syntax:
 
@@ -67,7 +67,7 @@ CREATE TABLE table_name(
 
 ```
 
-3.2. Read Operation
+**3.2. Read Operation**
 
 Syntax:
 
@@ -76,7 +76,7 @@ USE db_name;
 SELECT * FROM table_name;
 ```
 
-3.3. Update Operation
+**3.3. Update Operation**
 
 There is  two statements are mostly used for Update Operation.
 1. Alter Table Statement - This is the DDL statement (Data Definition Language) used to change the structure of the table.
@@ -113,4 +113,19 @@ UPDATE table_name
 SET column1 = "Person Name", column2 = "Person address",
 WHERE id = 1;
 
+```
+
+**4. Delete Operation**
+
+The `DELETE` statement is used to delete existing records in a table.
+
+Syntax:
+
+```mysql
+DELETE FROM table_name WHERE condition;
+```
+
+Example:
+```mysql
+ DELETE FROM table_name WHERE column1='Person Name'; 
 ```
