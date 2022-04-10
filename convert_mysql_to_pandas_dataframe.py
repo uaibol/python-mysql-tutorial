@@ -12,7 +12,7 @@ connection_params = {
 
 connection = mysql.connect(**connection_params)
 cursor = connection.cursor()
-cursor.execute("SELECT * FROM phrases")
+cursor.execute("SELECT * FROM table_name")
 
 df = pd.DataFrame(cursor.fetchall())
 
