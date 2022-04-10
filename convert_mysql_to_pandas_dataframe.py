@@ -2,7 +2,6 @@ import mysql.connector as mysql
 from mysql.connector import Error
 import pandas as pd
 
-
 connection_params = {
         "host":"localhost",
         "user":"root",
