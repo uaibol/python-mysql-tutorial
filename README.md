@@ -34,7 +34,7 @@ except Error as e:
 
 
 ```
-**3. CRUD Operations in MySQL**
+# **3. CRUD Operations in MySQL**
 	
 	- Create Operation
 	- Read Operation
@@ -76,7 +76,7 @@ USE db_name;
 SELECT * FROM table_name;
 ```
 
-# **3.3. Update Operation**
+**3.3. Update Operation**
 
 There is  two statements are mostly used for Update Operation.
 1. Alter Table Statement - This is the DDL statement (Data Definition Language) used to change the structure of the table.
