@@ -41,14 +41,15 @@ except Error as e:
 	- Update Operation
 	- Delete Operation
 
-	3.1. Create Operation
+3.1. Create Operation
 	
-	Syntax:
-	```sql
-	CREATE TABLE table_name (column_name column_type constraints);
+Syntax:
 
-	```
-	Parameters:
-		1. column_name - Name of the particular column
-		2. column_type - DataType of the column. DataType can be: char(), varchar(), int(), float(), etc.
-		3. constraints - In order to give restrictions to particular column constraints are used. Constraints can be - not null, primary key, foreign key, etc.
+```mysql
+CREATE TABLE table_name (column_name column_type constraints);
+
+```
+Parameters:
+	1. column_name - Name of the particular column
+	2. column_type - DataType of the column. DataType can be: char(), varchar(), int(), float(), etc.
+	3. constraints - In order to give restrictions to particular column constraints are used. Constraints can be - not null, primary key, foreign key, etc.
