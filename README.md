@@ -10,7 +10,7 @@
 
 ```
 
-**2. Establishing a Connection**
+# **2. Establishing a Connection**
 
 ```python
 from mysql.connector import connect, Error
@@ -76,7 +76,7 @@ USE db_name;
 SELECT * FROM table_name;
 ```
 
-**3.3. Update Operation**
+# **3.3. Update Operation**
 
 There is  two statements are mostly used for Update Operation.
 1. Alter Table Statement - This is the DDL statement (Data Definition Language) used to change the structure of the table.
@@ -129,3 +129,5 @@ Example:
 ```mysql
  DELETE FROM table_name WHERE column1='Person Name'; 
 ```
+
+# 4. MySQL Joins
