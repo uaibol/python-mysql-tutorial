@@ -66,3 +66,33 @@ CREATE TABLE table_name(
 );
 
 ```
+
+3.2. Read Operation
+
+Syntax:
+
+```mysql
+USE db_name;
+SELECT * FROM table_name;
+```
+
+3.3. Update Operation
+
+There is  two commands are mostly used for Update Operation.
+1. Alter Table Command - This is the DDL command (Data Definition Language) used to change the structure of the table.
+2. Update Table Command - This is the DML command (Data Manipulating Language) used to alter the records.
+
+
+Syntax:
+
+```mysql
+ALTER TABLE table_name
+ADD column_name datatype;
+
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+ALTER TABLE table_name
+MODIFY COLUMN column_name datatype
+
+```
