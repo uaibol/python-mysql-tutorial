@@ -50,6 +50,6 @@ CREATE TABLE table_name (column_name column_type constraints);
 
 ```
 Parameters:<br>
-	1. column_name - Name of the particular column<br>
-	2. column_type - DataType of the column. DataType can be: char(), varchar(), int(), float(), etc.<br>
-	3. constraints - In order to give restrictions to particular column constraints are used. Constraints can be - not null, primary key, foreign key, etc.<br>
+	1. **column_name** - Name of the particular column<br>
+	2. **column_type** - DataType of the column. DataType can be: **char(), varchar(), int(), float(),** etc.<br>
+	3. **constraints** - In order to give restrictions to particular column constraints are used. Constraints can be - **not null, primary key, foreign key,** etc.<br>
