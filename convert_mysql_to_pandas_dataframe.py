@@ -16,8 +16,8 @@ cursor.execute("SELECT * FROM table_name")
 
 df = pd.DataFrame(cursor.fetchall())
 
-connection.close()
-
 #Display the data
 df
 df.drop_duplicates(subset=[1])
+
+connection.close()

@@ -15,6 +15,9 @@ try:
             cursor.execute("select database();")
             db = cursor.fetchone()
             print("You are connected to the database: ", db)
+    
 except Error as e:
     print(e)
+
+connection.close()
 
