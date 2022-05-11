@@ -10,7 +10,7 @@
 
 ```
 
-# **2. Establishing a Connection**
+# 2. Establishing a Connection
 
 ```python
 from mysql.connector import connect, Error
@@ -131,3 +131,5 @@ Example:
 ```
 
 # 4. MySQL Joins
+Joins are one of the advanced topics for MySQL berginners to grasp. On the other hand studing concepts of mathematical sets, unions, intersections, and their resulting Venn diagrams helpfull
+to understanding mysql joins.
